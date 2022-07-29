@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<h3>¿Alcohol o gasolina?</h3>
+<br>
+
+<script>
+	alert("Calculo de consumo en kilometros por litro alcohol y gasolina")
+
+	var tanque = 40;
+	var caminoGasolina = 480;
+	var caminoAlcohol = 300;
+	
+	var combustible = "gasolina";
+	var camino = caminoGasolina;
+	var consumo = camino / tanque;
+	document.write("Consumo de " + combustible + ": " + consumo + " km/lt");
+	document.write("<br>");
+	document.write("<br>");
+
+
+	combustible = "alcohol";
+	camino = caminoAlcohol;
+	consumo = camino / tanque;
+	document.write("Consumo de " + combustible + ": " + consumo + " km/lt");
+
+</script>

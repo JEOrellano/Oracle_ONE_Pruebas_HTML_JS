@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+
+<h1>DIFERENCIA ENTRE EDADES</h1>
+<br>
+
+<script>
+
+var miEdad = 33;
+var edadHermano = 41;
+var diferenciaEdades;
+
+function resta(a, b) {
+
+	var r = a - b;
+
+	return r;
+
+}
+
+// funcion saltarLinea hace 2 saltos de linea
+function saltarLinea() {
+
+	document.write("<br>");
+	document.write("<br>");
+
+}
+
+// funcion imprimir muestra frase por pantalla
+function imprimir(frase) {
+
+	document.write(frase);
+	saltarLinea();
+
+}
+
+diferenciaEdades = resta(edadHermano, miEdad);
+
+imprimir("la diferencia de edades entre mi hermano y yo es de " + diferenciaEdades + " años");
+
+</script>
